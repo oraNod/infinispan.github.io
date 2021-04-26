@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/github.min.css">
+  <link rel="alternate" type="application/rss+xml"
+        title="Infinispan's RSS Feed"
+        href="/feed.xml" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
   <script charset="UTF-8"
           src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/languages/java.min.js"></script>
@@ -21,7 +24,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
- 
+
     gtag('config', 'UA-125236544-1');
   </script> -->
 
@@ -221,91 +224,116 @@
     
       
         <div class="block-item width-4-12 width-12-12-m">
-          <div class="post-title">
-            <h6 class="margin-tb-0"><a href="/blog/2020/09/08/infinispan-12">Infinispan 12.0.0.Dev03</a></h6>
+          <div class="post-title" style="min-height: 100px">
+            <h6 class="margin-tb-0"><a href="/blog/2021/04/07/infinispan-12-1-0-final">Infinispan 12.1.0.Final</a></h6>
           </div>
           <p class="margin-tb-sm">
-            <small>September 08, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/release">release</a> <a href="/blog/tag/development">development</a> </small>
+            <small>April 07, 2021</small>
           </p>
-          <p class="byline margin-tb-sm">By Katia Aresti</p>
+          <p class="margin-tb-sm">By Tristan Tarrant</p>
+          <p class="margin-tb-sm" style="min-height: 50px">
+             <a href="/blog/tag/release">release</a> </small>
+          </p>
           
-            <p>
+            <p style="min-height: 300px">
 
 
 Dear Infinispan community,
 
 
-Infinispan 12 development release 03 is here!
+As a belated surprise in your chocolate egg this year is a brand new final release.
+Infinispan 12.1 Taedonggang includes a bunch of new features and fixes.
 
 
 
 
-Cross Site Replication
+Out-of-the-box authorization in the server
 
 
-With the new asynchronous cross-site replication algorithm introduced in Infinispan 11, this release brings
-a long desired feature: conflict resolution.
-
-
-It is possible ...</p>
+The biggest change is the fact that the ...</p>
           
           <div class="text-centered">
-            <a href="/blog/2020/09/08/infinispan-12" class="button-cta tertiary">Read More</a> 
+            <a href="/blog/2021/04/07/infinispan-12-1-0-final" class="button-cta tertiary">Read More</a> 
           </div>
         </div>
       
     
       
         <div class="block-item width-4-12 width-12-12-m">
-          <div class="post-title">
-            <h6 class="margin-tb-0"><a href="/blog/2020/08/31/nonblocking_nearing">Non Blocking Journey</a></h6>
+          <div class="post-title" style="min-height: 100px">
+            <h6 class="margin-tb-0"><a href="/blog/2021/03/16/new-infinispan-spring-session">Introducing WildFly Clustering Spring Session</a></h6>
           </div>
           <p class="margin-tb-sm">
-            <small>August 31, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/non-blocking">non-blocking</a> <a href="/blog/tag/server">server</a> <a href="/blog/tag/embedded">embedded</a> </small>
+            <small>March 16, 2021</small>
           </p>
-          <p class="byline margin-tb-sm">By William Burns</p>
+          <p class="margin-tb-sm">By Paul Ferraro</p>
+          <p class="margin-tb-sm" style="min-height: 50px">
+             <a href="/blog/tag/spring">spring</a> <a href="/blog/tag/spring session">spring session</a> <a href="/blog/tag/httpsession">httpsession</a> <a href="/blog/tag/wildfly">wildfly</a> </small>
+          </p>
           
-            <p>
+            <p style="min-height: 300px">
 
 
-As many you are probably aware recent trends have shown that making applications non blocking
-provides quite a few benefits allowing for greater scalability with less resources. Infinispan
-has been written and rewriting parts to take advantage of this as we can for
-both emb...</p>
+Dear Infinispan community,
+
+
+Last week I released version 3.0.0.Final of wildfly-clustering-spring-session, a new Spring Session implementation based on WildFly&#8217;s distributed HttpSession manager and Infinispan.
+
+
+
+
+Doesn&#8217;t Infinispan already provide a Spring Ses...</p>
           
           <div class="text-centered">
-            <a href="/blog/2020/08/31/nonblocking_nearing" class="button-cta tertiary">Read More</a> 
+            <a href="/blog/2021/03/16/new-infinispan-spring-session" class="button-cta tertiary">Read More</a> 
           </div>
         </div>
       
     
       
         <div class="block-item width-4-12 width-12-12-m">
-          <div class="post-title">
-            <h6 class="margin-tb-0"><a href="/blog/2020/08/28/infinispan-tdc-sp">The Developer Conference Sao Paulo</a></h6>
+          <div class="post-title" style="min-height: 100px">
+            <h6 class="margin-tb-0"><a href="/blog/2021/02/12/infinispan-12-0-1">Infinispan 12.0.1.Final "Lockdown"</a></h6>
           </div>
           <p class="margin-tb-sm">
-            <small>August 28, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/tutorial">tutorial</a> <a href="/blog/tag/learning">learning</a> <a href="/blog/tag/presentation">presentation</a> <a href="/blog/tag/quarkus">quarkus</a> <a href="/blog/tag/event">event</a> <a href="/blog/tag/tdc">tdc</a> </small>
+            <small>February 12, 2021</small>
           </p>
-          <p class="byline margin-tb-sm">By Gustavo Lira</p>
+          <p class="margin-tb-sm">By Ryan Emerson</p>
+          <p class="margin-tb-sm" style="min-height: 50px">
+             <a href="/blog/tag/release">release</a> </small>
+          </p>
           
-            <p>
+            <p style="min-height: 300px">
 
 
 Dear Infinispan community,
 
 
+we hope you&#8217;ve been enjoying all the new goodies included in our latest major release, Infinispan 12.
 
 
-What is The Developer’s Conference?
+We now have a brand new micro release for you which addresses a number of issues.
 
 
-The Developer’s Conference (TDC) is the largest event related to software development in Brazil connecting meetup and event organizers, speakers, companies and sponsors on a single platform, empowering the...</p>
+The following list shows what we have fixed:
+
+
+
+
+Co...</p>
           
           <div class="text-centered">
-            <a href="/blog/2020/08/28/infinispan-tdc-sp" class="button-cta tertiary">Read More</a> 
+            <a href="/blog/2021/02/12/infinispan-12-0-1" class="button-cta tertiary">Read More</a> 
           </div>
         </div>
+      
+    
+      
+    
+      
+    
+      
+    
       
     
       
@@ -1496,21 +1524,29 @@ The Developer’s Conference (TDC) is the largest event related to software deve
         <b>Navigation</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/">Home</a></li>
+            
+            <li><a href="/" >Home</a></li>
           
-            <li><a href="/features">Features</a></li>
+            
+            <li><a href="/features" >Features</a></li>
           
-            <li><a href="/documentation">Docs</a></li>
+            
+            <li><a href="/documentation" >Docs</a></li>
           
-            <li><a href="/tutorials">Tutorials</a></li>
+            
+            <li><a href="/tutorials" >Tutorials</a></li>
           
-            <li><a href="/videos">Videos</a></li>
+            
+            <li><a href="/videos" >Videos</a></li>
           
-            <li><a href="/use-cases">Use Cases</a></li>
+            
+            <li><a href="/use-cases" >Use Cases</a></li>
           
-            <li><a href="/community">Community</a></li>
+            
+            <li><a href="/community" >Community</a></li>
           
-            <li><a href="/download">Download</a></li>
+            
+            <li><a href="/download" >Download</a></li>
           
         </ul>
       </div>
@@ -1519,9 +1555,11 @@ The Developer’s Conference (TDC) is the largest event related to software deve
         <b>Contribute</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="https://issues.jboss.org/browse/ISPN">Submit a Bug</a></li>
+            
+            <li><a href="https://issues.jboss.org/browse/ISPN" target="_blank">Submit a Bug</a></li>
           
-            <li><a href="https://github.com/infinispan">Write Code</a></li>
+            
+            <li><a href="https://github.com/infinispan" target="_blank">Write Code</a></li>
           
         </ul>
       </div>
@@ -1530,9 +1568,11 @@ The Developer’s Conference (TDC) is the largest event related to software deve
         <b>Follow Us</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/blog">Blog</a></li>
+            
+            <li><a href="/blog" >Blog</a></li>
           
-            <li><a href="https://twitter.com/infinispan">Twitter</a></li>
+            
+            <li><a href="https://twitter.com/infinispan" target="_blank">Twitter</a></li>
           
         </ul>
       </div>

@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/github.min.css">
+  <link rel="alternate" type="application/rss+xml"
+        title="Infinispan's RSS Feed"
+        href="/feed.xml" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
   <script charset="UTF-8"
           src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/languages/java.min.js"></script>
@@ -21,7 +24,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
- 
+
     gtag('config', 'UA-125236544-1');
   </script> -->
 
@@ -80,6 +83,111 @@
 
 <div class="component-wrapper">
   <div class="grid__item width-9-12 width-12-12-m">
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2018/01/19/easier-infinispan-clusters-on-same-jvm">Easier Infinispan clusters on same JVM with Infinispan 9.2</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>January 19, 2018 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ clustering"> clustering</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Since Infinispan 5.2.0, Infinispan
+registers JMX MBeans by
+default even if statistics are disabled. This was done so that
+management related operations could be called even if statistics were
+disabled.
+
+
+This change resulted in a small usability problem for those users that
+w...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2018/01/19/easier-infinispan-clusters-on-same-jvm">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2018/01/08/improving-collect-for-distributed-java">Improving collect() for distributed Java Streams in Infinispan 9.2</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>January 08, 2018 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ streams"> streams</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+As we progress with the release of Infinispan 9.2 pre-releases, it&#8217;s
+important to highlight some of the more interesting improvements from an
+end-user perspective.
+
+
+As mentioned
+before,
+Infinispan
+Distributed Java Streams can be used to calculate analytics over
+existin...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2018/01/08/improving-collect-for-distributed-java">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2017/12/21/2017-busy-year-for-infinispan">2017: A busy year for Infinispan evangelisation!</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>December 21, 2017 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ conference"> conference</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+It&#8217;s been a very busy year from an Infinispan evangelisation
+perspective, so before the year ends, we wanted to round up the
+conferences and user groups that featured Infinispan related talks. This
+is a good opportunity to catch up on what we&#8217;ve been showing in ou...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2017/12/21/2017-busy-year-for-infinispan">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2017/12/19/infinispan-911final-released">Infinispan 9.1.4.Final Released</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>December 19, 2017 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Ryan Emerson</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Dear Infinispan Community,
+
+
+We&#8217;re excited to announce the release of Infinispan 9.1.4.Final, which
+can be found on our download page.
+
+
+Full details of the various fixes included in this release can be
+found here.
+</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2017/12/19/infinispan-911final-released">Read More ></a></div>
+      </div>
     
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
@@ -200,121 +308,6 @@ We had a very hectic schedu...</p>
           
         </div>
         <div class="grid__item width-12-12"><a href="/blog/2017/11/28/back-from-madrid-jug-and-codemotion">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2017/11/22/infinispan-and-vertx-coming-to">Infinispan and Vert.x coming to Codemotion Spain and Madrid JUG</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>November 22, 2017 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ conference"> conference</a> <a href="/blog/tag/JUGs">JUGs</a> <a href="/blog/tag/codemotion">codemotion</a> <a href="/blog/tag/vert.x">vert.x</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Katia Aresti</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-I&#8217;m happy to announce that Infinispan
-and Eclipse Vert.x team members are in Madrid (Spain)
-this week!
-
-
-The 23th of
-November, Galder (Infinispan) and Thomas (Vert.x)
-will be presenting at Madrid
-Java User Group two talks about Infinispan and Ver.x. From
-my side, I&#821...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2017/11/22/infinispan-and-vertx-coming-to">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2017/11/21/infinispan-spark-connector-06-is-out">Infinispan Spark connector 0.6 is out!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>November 21, 2017 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/spark">spark</a> <a href="/blog/tag/release">release</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Gustavo Fernandes</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-This is a small release to align
-with Infinispan 9.2.x and Spark 2.2, and it also has an improvement to
-the Java API related to filterByQuery.
-
-
-For a full list of changes, please refer to the
-release
-notes. Make sure to also check the
-improved
-documentation and the
-Twitter
-d...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2017/11/21/infinispan-spark-connector-06-is-out">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2017/11/20/hotrod-clients-cc-820alpha2-are-out">  Hotrod clients C++/C# 8.2.0.Alpha2 are out!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>November 20, 2017 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/c++">c++</a> <a href="/blog/tag/release">release</a> <a href="/blog/tag/minor release">minor release</a> <a href="/blog/tag/alpha">alpha</a> <a href="/blog/tag/c#">c#</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Vittorio Rigamonti</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Dear Infinispanners,
-
-
-we&#8217;re pleased to announce the C++ and C# 8.2.0.Alpha2 releases.
-
-
-Code for continuous queries (CQ) and SASL is almost complete. Worth
-mentioning improvements for Alpha2 are:
-
-
-
-
-added xunit framework for build verification testing (googletest)
-
-
-C...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2017/11/20/hotrod-clients-cc-820alpha2-are-out">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2017/11/15/merci-duchess-et-devoxx">Merci Duchess et Devoxx!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>November 15, 2017 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/conference">conference</a> <a href="/blog/tag/workshop">workshop</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-We&#8217;ve had two very hectic weeks delivering the
-Infinispan/http://vertx.io/[Vert.x]/https://www.openshift.com/[OpenShift]
-Streaming Data workshop in Duchess
-France and Devoxx Belgium. First of all, thanks to
-all attendees for taking the time to attend this workshop and w...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2017/11/15/merci-duchess-et-devoxx">Read More ></a></div>
       </div>
     
     
@@ -445,6 +438,11 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring">spring
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring boot">spring boot
     </a>
   </li>
@@ -461,11 +459,6 @@ all attendees for taking the time to attend this workshop and w...</p>
 
   <li>
     <a href="/blog/tag/spark">spark
-    </a>
-  </li>
-
-  <li>
-    <a href="/blog/tag/spring">spring
     </a>
   </li>
 
@@ -1055,11 +1048,6 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/learning">learning
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/leveldb">leveldb
     </a>
   </li>
@@ -1140,12 +1128,12 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tutorial">tutorial
+    <a href="/blog/tag/voxxed">voxxed
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/voxxed">voxxed
+    <a href="/blog/tag/wildfly">wildfly
     </a>
   </li>
 
@@ -1730,6 +1718,11 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/httpsession">httpsession
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/Ickle">Ickle
     </a>
   </li>
@@ -1816,6 +1809,11 @@ all attendees for taking the time to attend this workshop and w...</p>
 
   <li>
     <a href="/blog/tag/language">language
+    </a>
+  </li>
+
+  <li>
+    <a href="/blog/tag/learning">learning
     </a>
   </li>
 
@@ -2020,6 +2018,11 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring session">spring session
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring-session">spring-session
     </a>
   </li>
@@ -2060,12 +2063,12 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tdc">tdc
+    <a href="/blog/tag/tomcat">tomcat
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/tomcat">tomcat
+    <a href="/blog/tag/tutorial">tutorial
     </a>
   </li>
 
@@ -2130,11 +2133,6 @@ all attendees for taking the time to attend this workshop and w...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/wildfly">wildfly
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/workshop">workshop
     </a>
   </li>
@@ -2176,21 +2174,29 @@ all attendees for taking the time to attend this workshop and w...</p>
         <b>Navigation</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/">Home</a></li>
+            
+            <li><a href="/" >Home</a></li>
           
-            <li><a href="/features">Features</a></li>
+            
+            <li><a href="/features" >Features</a></li>
           
-            <li><a href="/documentation">Docs</a></li>
+            
+            <li><a href="/documentation" >Docs</a></li>
           
-            <li><a href="/tutorials">Tutorials</a></li>
+            
+            <li><a href="/tutorials" >Tutorials</a></li>
           
-            <li><a href="/videos">Videos</a></li>
+            
+            <li><a href="/videos" >Videos</a></li>
           
-            <li><a href="/use-cases">Use Cases</a></li>
+            
+            <li><a href="/use-cases" >Use Cases</a></li>
           
-            <li><a href="/community">Community</a></li>
+            
+            <li><a href="/community" >Community</a></li>
           
-            <li><a href="/download">Download</a></li>
+            
+            <li><a href="/download" >Download</a></li>
           
         </ul>
       </div>
@@ -2199,9 +2205,11 @@ all attendees for taking the time to attend this workshop and w...</p>
         <b>Contribute</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="https://issues.jboss.org/browse/ISPN">Submit a Bug</a></li>
+            
+            <li><a href="https://issues.jboss.org/browse/ISPN" target="_blank">Submit a Bug</a></li>
           
-            <li><a href="https://github.com/infinispan">Write Code</a></li>
+            
+            <li><a href="https://github.com/infinispan" target="_blank">Write Code</a></li>
           
         </ul>
       </div>
@@ -2210,9 +2218,11 @@ all attendees for taking the time to attend this workshop and w...</p>
         <b>Follow Us</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/blog">Blog</a></li>
+            
+            <li><a href="/blog" >Blog</a></li>
           
-            <li><a href="https://twitter.com/infinispan">Twitter</a></li>
+            
+            <li><a href="https://twitter.com/infinispan" target="_blank">Twitter</a></li>
           
         </ul>
       </div>

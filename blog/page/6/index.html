@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/github.min.css">
+  <link rel="alternate" type="application/rss+xml"
+        title="Infinispan's RSS Feed"
+        href="/feed.xml" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
   <script charset="UTF-8"
           src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/languages/java.min.js"></script>
@@ -21,7 +24,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
- 
+
     gtag('config', 'UA-125236544-1');
   </script> -->
 
@@ -80,6 +83,113 @@
 
 <div class="component-wrapper">
   <div class="grid__item width-9-12 width-12-12-m">
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2019/03/07/subatomic-infinspan-client">Subatomic Infinispan Client</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>March 07, 2019 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/quarkus">quarkus</a> <a href="/blog/tag/graalvm">graalvm</a> <a href="/blog/tag/native">native</a> <a href="/blog/tag/substratevm">substratevm</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By William Burns</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Today, the Quarkus project was released as a public beta.
+https://quarkus.io/ For those of you not familiar, Quarkus allows you to
+write your enterprise apps as you have done in the past with
+Hibernate/JAX-RS, but also to compile these applications to a Graal-VM
+native image....</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2019/03/07/subatomic-infinspan-client">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2019/03/06/triple-cachestore-release-cloud-mongodb">Triple cachestore release: Cloud, MongoDB and Cassandra</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>March 06, 2019 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> <a href="/blog/tag/cache store">cache store</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Today we present to you a trifecta of cache store releases which align
+to Infinispan 9.x
+
+
+Cassandra Cache Store
+
+
+The Cassandra cache store now implements the
+publishEntries/publishKeys
+methods.
+
+
+
+
+Cloud Cache Store
+
+
+The Cloud cache store uses the Apache jclouds library to...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2019/03/06/triple-cachestore-release-cloud-mongodb">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2019/03/05/enhanced-jgroups-configuration">Enhanced JGroups configuration</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>March 05, 2019 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ configuration"> configuration</a> <a href="/blog/tag/jgroups">jgroups</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Infinispan uses JGroups as its underlying
+clustering layer. In order to configure the finer details of clustering
+(discovery, flow control, cross-site, etc) you have to provide a
+separate XML file with the desired configuration and reference it from
+your Infinispan XML file a...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2019/03/05/enhanced-jgroups-configuration">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2019/03/04/first-openshfit-operator-pre-release">First OpenShift Operator pre-release for Infinispan is here!</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>March 04, 2019 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> <a href="/blog/tag/openshift">openshift</a> <a href="/blog/tag/operator">operator</a> <a href="/blog/tag/beta">beta</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Infinispan Operator
+is a new method of packaging, deploying and managing Infinispan clusters
+on OpenShift. You can think of the Infinispan Operator as the runtime
+that manages Infinispan clusters on OpenShift.
+
+
+We&#8217;ve just done our first Infinispan Operator pre-release,...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2019/03/04/first-openshfit-operator-pre-release">Read More ></a></div>
+      </div>
     
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
@@ -214,152 +324,6 @@ entries
         <div class="grid__item width-12-12"><a href="/blog/2019/01/28/1000alpha3-and-946final">Read More ></a></div>
       </div>
     
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2019/01/15/infinispan-spring-boot-starter-212final">Infinispan Spring Boot Starter 2.1.2.Final is out!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>January 15, 2019 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> <a href="/blog/tag/spring">spring</a> <a href="/blog/tag/spring boot">spring boot</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Katia Aresti</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Dear Infinispan and Spring Boot users,
-
-
-We have just released
-Infinispan Spring
-Boot 2.1.2.Final.
-
-
-2.1.2.Final is using Spring Boot 2.1.2.RELEASE and contains some bug
-fixes related to JCache and Actuator integration.
-
-
-The starter is now using Infinispan&#8217;s last stabl...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2019/01/15/infinispan-spring-boot-starter-212final">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2018/12/11/infinispan-spring-boot-211final-and">Infinispan Spring Boot Starter 2.1.1.Final and 1.0.4.Final are out!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>December 11, 2018 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> <a href="/blog/tag/spring-session">spring-session</a> <a href="/blog/tag/spring">spring</a> <a href="/blog/tag/spring boot">spring boot</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Katia Aresti</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Dear Infinispan and Spring Boot users,
-
-
-We have just released
-Infinispan Spring
-Boot 2.1.1.Final and 1.0.4.Final.
-
-
-1.0.4.Final is using Spring Boot 1.5.17.RELEASE
-
-
-2.1.1.Final is using Spring Boot 2.1.1.RELEASE 
-
-
-Both starters are now using
-Infinispan&#8217;s last
-stable ...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2018/12/11/infinispan-spring-boot-211final-and">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2018/12/10/infinispan-944final-and-1000alpha2-out">Infinispan 9.4.4.Final and 10.0.0.Alpha2 out with Spring 5 support!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>December 10, 2018 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> <a href="/blog/tag/alpha">alpha</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-We&#8217;ve just released completed a couple of releases:
-
-
-Infinispan 9.4.4.Final
-(release
-notes)
-
-
-
-
-Adds Spring 5 and Spring Boot 2.1 support
-
-
-Fixes for JDK 11 compatibility. 
-
-
-Improves Cache#size() performance when using shared cache stores.
-
-
-
-
-Infinispan 10.0.0.Alpha2...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2018/12/10/infinispan-944final-and-1000alpha2-out">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2018/11/21/the-road-to-infinispan-10-alpha1">The road to Infinispan 10 (Alpha1)</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>November 21, 2018 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ release"> release</a> <a href="/blog/tag/final">final</a> <a href="/blog/tag/alpha">alpha</a> <a href="/blog/tag/roadmap">roadmap</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Dear all,
-
-
-Today we are releasing 10.0.0.Alpha1 and 9.4.2.Final.
-
-
-Infinispan 9.4.2.Final comes with a number of bug fixes and some small
-additional features:
-
-
-
-
-ISPN-9655 REST Access Log
-headers
-
-
-ISPN-8144 &amp;
-ISPN-9661 Cross-Site
-replication statistics
-
-
-ISPN-9708 Expo...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2018/11/21/the-road-to-infinispan-10-alpha1">Read More ></a></div>
-      </div>
-    
     
       <div class="paginator-btns">
         
@@ -488,6 +452,11 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring">spring
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring boot">spring boot
     </a>
   </li>
@@ -504,11 +473,6 @@ ISPN-9708 Expo...</p>
 
   <li>
     <a href="/blog/tag/spark">spark
-    </a>
-  </li>
-
-  <li>
-    <a href="/blog/tag/spring">spring
     </a>
   </li>
 
@@ -1098,11 +1062,6 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/learning">learning
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/leveldb">leveldb
     </a>
   </li>
@@ -1183,12 +1142,12 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tutorial">tutorial
+    <a href="/blog/tag/voxxed">voxxed
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/voxxed">voxxed
+    <a href="/blog/tag/wildfly">wildfly
     </a>
   </li>
 
@@ -1773,6 +1732,11 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/httpsession">httpsession
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/Ickle">Ickle
     </a>
   </li>
@@ -1859,6 +1823,11 @@ ISPN-9708 Expo...</p>
 
   <li>
     <a href="/blog/tag/language">language
+    </a>
+  </li>
+
+  <li>
+    <a href="/blog/tag/learning">learning
     </a>
   </li>
 
@@ -2063,6 +2032,11 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring session">spring session
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring-session">spring-session
     </a>
   </li>
@@ -2103,12 +2077,12 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tdc">tdc
+    <a href="/blog/tag/tomcat">tomcat
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/tomcat">tomcat
+    <a href="/blog/tag/tutorial">tutorial
     </a>
   </li>
 
@@ -2173,11 +2147,6 @@ ISPN-9708 Expo...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/wildfly">wildfly
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/workshop">workshop
     </a>
   </li>
@@ -2219,21 +2188,29 @@ ISPN-9708 Expo...</p>
         <b>Navigation</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/">Home</a></li>
+            
+            <li><a href="/" >Home</a></li>
           
-            <li><a href="/features">Features</a></li>
+            
+            <li><a href="/features" >Features</a></li>
           
-            <li><a href="/documentation">Docs</a></li>
+            
+            <li><a href="/documentation" >Docs</a></li>
           
-            <li><a href="/tutorials">Tutorials</a></li>
+            
+            <li><a href="/tutorials" >Tutorials</a></li>
           
-            <li><a href="/videos">Videos</a></li>
+            
+            <li><a href="/videos" >Videos</a></li>
           
-            <li><a href="/use-cases">Use Cases</a></li>
+            
+            <li><a href="/use-cases" >Use Cases</a></li>
           
-            <li><a href="/community">Community</a></li>
+            
+            <li><a href="/community" >Community</a></li>
           
-            <li><a href="/download">Download</a></li>
+            
+            <li><a href="/download" >Download</a></li>
           
         </ul>
       </div>
@@ -2242,9 +2219,11 @@ ISPN-9708 Expo...</p>
         <b>Contribute</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="https://issues.jboss.org/browse/ISPN">Submit a Bug</a></li>
+            
+            <li><a href="https://issues.jboss.org/browse/ISPN" target="_blank">Submit a Bug</a></li>
           
-            <li><a href="https://github.com/infinispan">Write Code</a></li>
+            
+            <li><a href="https://github.com/infinispan" target="_blank">Write Code</a></li>
           
         </ul>
       </div>
@@ -2253,9 +2232,11 @@ ISPN-9708 Expo...</p>
         <b>Follow Us</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/blog">Blog</a></li>
+            
+            <li><a href="/blog" >Blog</a></li>
           
-            <li><a href="https://twitter.com/infinispan">Twitter</a></li>
+            
+            <li><a href="https://twitter.com/infinispan" target="_blank">Twitter</a></li>
           
         </ul>
       </div>

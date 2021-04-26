@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/github.min.css">
+  <link rel="alternate" type="application/rss+xml"
+        title="Infinispan's RSS Feed"
+        href="/feed.xml" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
   <script charset="UTF-8"
           src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/languages/java.min.js"></script>
@@ -21,7 +24,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
- 
+
     gtag('config', 'UA-125236544-1');
   </script> -->
 
@@ -80,6 +83,115 @@
 
 <div class="component-wrapper">
   <div class="grid__item width-9-12 width-12-12-m">
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2020/07/27/infinispan-12">Infinispan 12.0.0.Dev01</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>July 27, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/release">release</a> <a href="/blog/tag/development">development</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Dear Infinispan community,
+
+
+The first of our development releases of Infinispan 12 is here and it features our upgrade to Hibernate Search 6 which finally allows us to upgrade to Lucene 8.x. We&#8217;ve had to change a few things in our query implementation to accommodate th...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2020/07/27/infinispan-12">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2020/07/22/anchored-keys">Introducing the Anchored Keys module</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>July 22, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/anchored keys">anchored keys</a> <a href="/blog/tag/state transfer">state transfer</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Dan Berindei</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+
+
+Infinispan version 11 introduces an experimental module that allows scaling up a cluster and adding new nodes without expensive state transfer.
+
+
+
+
+Background
+
+
+For background, the preferred way to scale up the storage capacity of a Infinispan cluster
+is to use distributed ...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2020/07/22/anchored-keys">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2020/07/03/infinispan-11">Infinispan 11.0.1.Final "Corona Extra"</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>July 03, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/release">release</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+
+
+Dear Infinispan community,
+
+
+we hope you&#8217;ve been enjoying all the new goodies included in our latest major release, Infinispan 11.
+To show that we care about you, we have a brand new micro release for you which addresses a number of issues.
+
+
+In particular, if you are...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2020/07/03/infinispan-11">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2020/06/16/native-server-announce">Infinispan Native Server Image</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>June 16, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/docker">docker</a> <a href="/blog/tag/native">native</a> <a href="/blog/tag/quarkus">quarkus</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Ryan Emerson</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Starting with Infinispan 11, it&#8217;s now possible to create a natively compiled version of the Infinispan server.
+
+
+TL;DR
+
+
+We have a new image that contains a natively compiled Infinispan server and has a footprint of only 286MB. Try it now:
+
+
+
+docker run -p 11222:11222 q...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2020/06/16/native-server-announce">Read More ></a></div>
+      </div>
     
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
@@ -191,107 +303,6 @@ Supp...</p>
           
         </div>
         <div class="grid__item width-12-12"><a href="/blog/2020/06/05/xsite-improvements">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2020/06/04/server-secure-by-default">Secure Infinispan server by default</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>June 04, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/server">server</a> <a href="/blog/tag/security">security</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-
-
-The Infinispan server we introduced in 10.0 exposes a single port through which both Hot Rod and HTTP clients can connect.
-
-
-While Infinispan has had very extensive security support since 7.0, the out-of-the-box default configuration did not enable authentication.
-
-
-Infinis...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2020/06/04/server-secure-by-default">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2020/05/30/hotrod-percache-configuration">Hot Rod per-cache configuration</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>May 30, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/hot rod">hot rod</a> <a href="/blog/tag/configuration">configuration</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-
-
-Aside from being able to configure a Java Hot Rod client through a compact URI representation, Infinispan 11 brings some additional changes to remote cache configuration.
-
-
-While remote caches did have some client-side configuration, this was never implemented cleanly, reso...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2020/05/30/hotrod-percache-configuration">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2020/05/28/cli">CLI enhancements</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>May 28, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/cli">cli</a> <a href="/blog/tag/server">server</a> <a href="/blog/tag/management">management</a> <a href="/blog/tag/administration">administration</a> <a href="/blog/tag/logging">logging</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-
-
-One of the key aspects of our new server architecture is the management API exposed through the single port.
-
-
-While I&#8217;m sure there will be those of you who like to write scripts with plenty of curl/wget magic, and those who prefer the comfort of our new web console,
-...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2020/05/28/cli">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2020/05/26/hotrod-uri">Hot Rod URI</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>May 26, 2020 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/documentation">documentation</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Tristan Tarrant</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Traditionally, the Java Hot Rod client has always been configured either via a properties file or through a programmatic builder API.
-
-
-While both approaches offer a great amount of flexibility, they always felt a bit too complex for straightforward scenarios.
-
-
-Starting with...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2020/05/26/hotrod-uri">Read More ></a></div>
       </div>
     
     
@@ -422,6 +433,11 @@ Starting with...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring">spring
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring boot">spring boot
     </a>
   </li>
@@ -438,11 +454,6 @@ Starting with...</p>
 
   <li>
     <a href="/blog/tag/spark">spark
-    </a>
-  </li>
-
-  <li>
-    <a href="/blog/tag/spring">spring
     </a>
   </li>
 
@@ -1032,11 +1043,6 @@ Starting with...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/learning">learning
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/leveldb">leveldb
     </a>
   </li>
@@ -1117,12 +1123,12 @@ Starting with...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tutorial">tutorial
+    <a href="/blog/tag/voxxed">voxxed
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/voxxed">voxxed
+    <a href="/blog/tag/wildfly">wildfly
     </a>
   </li>
 
@@ -1707,6 +1713,11 @@ Starting with...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/httpsession">httpsession
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/Ickle">Ickle
     </a>
   </li>
@@ -1793,6 +1804,11 @@ Starting with...</p>
 
   <li>
     <a href="/blog/tag/language">language
+    </a>
+  </li>
+
+  <li>
+    <a href="/blog/tag/learning">learning
     </a>
   </li>
 
@@ -1997,6 +2013,11 @@ Starting with...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring session">spring session
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring-session">spring-session
     </a>
   </li>
@@ -2037,12 +2058,12 @@ Starting with...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tdc">tdc
+    <a href="/blog/tag/tomcat">tomcat
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/tomcat">tomcat
+    <a href="/blog/tag/tutorial">tutorial
     </a>
   </li>
 
@@ -2107,11 +2128,6 @@ Starting with...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/wildfly">wildfly
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/workshop">workshop
     </a>
   </li>
@@ -2153,21 +2169,29 @@ Starting with...</p>
         <b>Navigation</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/">Home</a></li>
+            
+            <li><a href="/" >Home</a></li>
           
-            <li><a href="/features">Features</a></li>
+            
+            <li><a href="/features" >Features</a></li>
           
-            <li><a href="/documentation">Docs</a></li>
+            
+            <li><a href="/documentation" >Docs</a></li>
           
-            <li><a href="/tutorials">Tutorials</a></li>
+            
+            <li><a href="/tutorials" >Tutorials</a></li>
           
-            <li><a href="/videos">Videos</a></li>
+            
+            <li><a href="/videos" >Videos</a></li>
           
-            <li><a href="/use-cases">Use Cases</a></li>
+            
+            <li><a href="/use-cases" >Use Cases</a></li>
           
-            <li><a href="/community">Community</a></li>
+            
+            <li><a href="/community" >Community</a></li>
           
-            <li><a href="/download">Download</a></li>
+            
+            <li><a href="/download" >Download</a></li>
           
         </ul>
       </div>
@@ -2176,9 +2200,11 @@ Starting with...</p>
         <b>Contribute</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="https://issues.jboss.org/browse/ISPN">Submit a Bug</a></li>
+            
+            <li><a href="https://issues.jboss.org/browse/ISPN" target="_blank">Submit a Bug</a></li>
           
-            <li><a href="https://github.com/infinispan">Write Code</a></li>
+            
+            <li><a href="https://github.com/infinispan" target="_blank">Write Code</a></li>
           
         </ul>
       </div>
@@ -2187,9 +2213,11 @@ Starting with...</p>
         <b>Follow Us</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/blog">Blog</a></li>
+            
+            <li><a href="/blog" >Blog</a></li>
           
-            <li><a href="https://twitter.com/infinispan">Twitter</a></li>
+            
+            <li><a href="https://twitter.com/infinispan" target="_blank">Twitter</a></li>
           
         </ul>
       </div>

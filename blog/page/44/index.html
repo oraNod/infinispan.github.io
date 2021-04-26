@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/github.min.css">
+  <link rel="alternate" type="application/rss+xml"
+        title="Infinispan's RSS Feed"
+        href="/feed.xml" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
   <script charset="UTF-8"
           src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/languages/java.min.js"></script>
@@ -21,7 +24,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
- 
+
     gtag('config', 'UA-125236544-1');
   </script> -->
 
@@ -80,6 +83,112 @@
 
 <div class="component-wrapper">
   <div class="grid__item width-9-12 width-12-12-m">
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2013/08/05/infinispan-600alpha2-is-out">Infinispan 6.0.0.Alpha2 is out!</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>August 05, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/release">release</a> <a href="/blog/tag/alpha">alpha</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Infinispan</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Dear Infinispan community,
+
+
+We&#8217;re proud to announce the second Alpha release of Infinispan 6.0.0,
+and also the second release using the Apache Software Licence.
+
+
+New features in this release:
+
+
+
+
+A new query DSL that is
+usable both in embedded/library mode and over Ho...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2013/08/05/infinispan-600alpha2-is-out">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2013/07/18/faster-file-cache-store-no-extra">Faster file cache store (no extra dependencies!) in 6.0.0.Alpha1</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>July 18, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/persistence">persistence</a> <a href="/blog/tag/alpha">alpha</a> <a href="/blog/tag/performance">performance</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+As
+announced
+yesterday by Adrian, the brand new Infinispan 6.0.0.Alpha1 release
+contains a new file-based cache store which needs no extra dependencies.
+This is essentially a replacement of the existing FileCacheStore which
+didn&#8217;t perform as expected, and caused major i...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2013/07/18/faster-file-cache-store-no-extra">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2013/07/17/infinispan-600alpha1-is-out">Infinispan 6.0.0.Alpha1 is out!</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>July 17, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/protostream">protostream</a> <a href="/blog/tag/release">release</a> <a href="/blog/tag/statistics">statistics</a> <a href="/blog/tag/persistence">persistence</a> <a href="/blog/tag/alpha">alpha</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Infinispan</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Dear Infinispan community,
+
+
+We&#8217;re proud to announce the first Alpha release of Infinispan 6.0.0.
+Starting with this release, Infinispan license is moving to the terms of
+the Apache Software Licence
+version 2.0.
+
+
+Besides increased stability (about 30 bug fixes) this re...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2013/07/17/infinispan-600alpha1-is-out">Read More ></a></div>
+      </div>
+    
+      <div class="blog-list-item grid-wrapper">
+        <div class="post-title grid__item width-12-12">
+          <h6><a href="/blog/2013/07/12/store-data-by-reference-or-by-value">Store data by reference or by value?</a></h6>
+        </div>
+        <div class="grid__item width-8-12 width-12-12-m">
+          <p class="margin-tb-0">
+            <small>July 12, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/store by reference">store by reference</a> <a href="/blog/tag/faq">faq</a> <a href="/blog/tag/store by value">store by value</a> </small>
+          </p>
+          <p class="byline margin-tb-sm">By Galder Zamarreño</p>
+        </div>
+        <div class="grid__item width-12-12">
+          
+            <p class="margin-tb-0">
+Traditionally, Infinispan has always stored data by-reference. Once
+clients store some data, clients can still modify entries via original
+object references. This means that since client references are valid,
+clients can make changes to entries in the cache using those refere...</p>
+          
+        </div>
+        <div class="grid__item width-12-12"><a href="/blog/2013/07/12/store-data-by-reference-or-by-value">Read More ></a></div>
+      </div>
     
       <div class="blog-list-item grid-wrapper">
         <div class="post-title grid__item width-12-12">
@@ -190,113 +299,6 @@ maybe one day...</p>
           
         </div>
         <div class="grid__item width-12-12"><a href="/blog/2013/06/12/introducing-leveldb-cache-store">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2013/06/04/using-mongodb-as-cache-store">Using MongoDB as a cache store</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>June 04, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/mongodb">mongodb</a> <a href="/blog/tag/cache store">cache store</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Infinispan</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-With the 5.3 release, there is a brand new feature. I&#8217;m glad to announce
-that you will be able to use MongoDB as a cache store.
-
-
-For those who don&#8217;t know MongoDB, it&#8217;s an open-source document oriented
-NoSQL database developped by 10Gen. You can more informa...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2013/06/04/using-mongodb-as-cache-store">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2013/05/30/introducing-jpa-cache-store">Introducing JPA Cache Store</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>May 30, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/ jpa"> jpa</a> <a href="/blog/tag/hibernate">hibernate</a> <a href="/blog/tag/cache store">cache store</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Infinispan</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Good news everyone - Infinispan 5.3.0 will be introducing a
-long awaited JPA cache store.
- This cache store will allow you to store cache entries in the database
-using proper schema - so that other applications can read the persisted
-data as well.
-
-
-In normal use cases, it&#8...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2013/05/30/introducing-jpa-cache-store">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2013/05/30/infinispan-530cr1-is-out">Infinispan 5.3.0.CR1 is out!</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>May 30, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/cachestore">cachestore</a> <a href="/blog/tag/jpa">jpa</a> <a href="/blog/tag/mongodb">mongodb</a> <a href="/blog/tag/loader">loader</a> <a href="/blog/tag/release candidate">release candidate</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Mircea Markus</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Besides a handful of fixes, this release contains two very important
-contributions:
-
-
-
-
-a mongoDB cache store which allows using
-Infinispan  as a cache on top of a mongodb instance. Courtesy of
- Guillaume Scheibel
-
-
-a
-JPA
-based cache store that allows an easy setup for Infini...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2013/05/30/infinispan-530cr1-is-out">Read More ></a></div>
-      </div>
-    
-      <div class="blog-list-item grid-wrapper">
-        <div class="post-title grid__item width-12-12">
-          <h6><a href="/blog/2013/05/28/infinispan-to-adopt-apache-software">Infinispan to adopt the Apache Software License</a></h6>
-        </div>
-        <div class="grid__item width-8-12 width-12-12-m">
-          <p class="margin-tb-0">
-            <small>May 28, 2013 &nbsp;&nbsp;&nbsp;Tags: <a href="/blog/tag/Open Source">Open Source</a> <a href="/blog/tag/License">License</a> <a href="/blog/tag/LGPL">LGPL</a> <a href="/blog/tag/asl2">asl2</a> </small>
-          </p>
-          <p class="byline margin-tb-sm">By Manik Surtani</p>
-        </div>
-        <div class="grid__item width-12-12">
-          
-            <p class="margin-tb-0">
-Starting with Infinispan 6.0, the project will move from its current
-GNU Lesser General Public
-License (LGPL) v.2.1 licence to the
-Apache License (AL)
-v.2.0.
-The switch from the weak copyleft LGPL license to the more permissive AL
-one is in response to continued requests from...</p>
-          
-        </div>
-        <div class="grid__item width-12-12"><a href="/blog/2013/05/28/infinispan-to-adopt-apache-software">Read More ></a></div>
       </div>
     
     
@@ -427,6 +429,11 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring">spring
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring boot">spring boot
     </a>
   </li>
@@ -443,11 +450,6 @@ one is in response to continued requests from...</p>
 
   <li>
     <a href="/blog/tag/spark">spark
-    </a>
-  </li>
-
-  <li>
-    <a href="/blog/tag/spring">spring
     </a>
   </li>
 
@@ -1037,11 +1039,6 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/learning">learning
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/leveldb">leveldb
     </a>
   </li>
@@ -1122,12 +1119,12 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tutorial">tutorial
+    <a href="/blog/tag/voxxed">voxxed
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/voxxed">voxxed
+    <a href="/blog/tag/wildfly">wildfly
     </a>
   </li>
 
@@ -1712,6 +1709,11 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/httpsession">httpsession
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/Ickle">Ickle
     </a>
   </li>
@@ -1798,6 +1800,11 @@ one is in response to continued requests from...</p>
 
   <li>
     <a href="/blog/tag/language">language
+    </a>
+  </li>
+
+  <li>
+    <a href="/blog/tag/learning">learning
     </a>
   </li>
 
@@ -2002,6 +2009,11 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
+    <a href="/blog/tag/spring session">spring session
+    </a>
+  </li>
+
+  <li>
     <a href="/blog/tag/spring-session">spring-session
     </a>
   </li>
@@ -2042,12 +2054,12 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/tdc">tdc
+    <a href="/blog/tag/tomcat">tomcat
     </a>
   </li>
 
   <li>
-    <a href="/blog/tag/tomcat">tomcat
+    <a href="/blog/tag/tutorial">tutorial
     </a>
   </li>
 
@@ -2112,11 +2124,6 @@ one is in response to continued requests from...</p>
   </li>
 
   <li>
-    <a href="/blog/tag/wildfly">wildfly
-    </a>
-  </li>
-
-  <li>
     <a href="/blog/tag/workshop">workshop
     </a>
   </li>
@@ -2158,21 +2165,29 @@ one is in response to continued requests from...</p>
         <b>Navigation</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/">Home</a></li>
+            
+            <li><a href="/" >Home</a></li>
           
-            <li><a href="/features">Features</a></li>
+            
+            <li><a href="/features" >Features</a></li>
           
-            <li><a href="/documentation">Docs</a></li>
+            
+            <li><a href="/documentation" >Docs</a></li>
           
-            <li><a href="/tutorials">Tutorials</a></li>
+            
+            <li><a href="/tutorials" >Tutorials</a></li>
           
-            <li><a href="/videos">Videos</a></li>
+            
+            <li><a href="/videos" >Videos</a></li>
           
-            <li><a href="/use-cases">Use Cases</a></li>
+            
+            <li><a href="/use-cases" >Use Cases</a></li>
           
-            <li><a href="/community">Community</a></li>
+            
+            <li><a href="/community" >Community</a></li>
           
-            <li><a href="/download">Download</a></li>
+            
+            <li><a href="/download" >Download</a></li>
           
         </ul>
       </div>
@@ -2181,9 +2196,11 @@ one is in response to continued requests from...</p>
         <b>Contribute</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="https://issues.jboss.org/browse/ISPN">Submit a Bug</a></li>
+            
+            <li><a href="https://issues.jboss.org/browse/ISPN" target="_blank">Submit a Bug</a></li>
           
-            <li><a href="https://github.com/infinispan">Write Code</a></li>
+            
+            <li><a href="https://github.com/infinispan" target="_blank">Write Code</a></li>
           
         </ul>
       </div>
@@ -2192,9 +2209,11 @@ one is in response to continued requests from...</p>
         <b>Follow Us</b>
         <ul class="footer-links width-1-12">
           
-            <li><a href="/blog">Blog</a></li>
+            
+            <li><a href="/blog" >Blog</a></li>
           
-            <li><a href="https://twitter.com/infinispan">Twitter</a></li>
+            
+            <li><a href="https://twitter.com/infinispan" target="_blank">Twitter</a></li>
           
         </ul>
       </div>

@@ -1,0 +1,5 @@
+<distributed-cache name="my-cache">
+  <indexing>
+    <!-- Indexing configuration goes here. -->
+  </indexing>
+</distributed-cache>
